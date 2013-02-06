@@ -1,7 +1,7 @@
 ---
 layout: page
 title: プログラミング言語Amber
-date: 2013-02-06 16:37:39 .
+date: 2013-02-06 17:06:08 .
 comments: true
 sharing: true
 footer: true
@@ -29,12 +29,13 @@ Amberは最初から自己拡張機能を最重要視して設計されており
 
 Amberを動かす
 -------------
-* [インストール](tutorial/install.html)
+
 * [チュートリアル](tutorial/)
 * [デモ](tutorial/demo.html)
 
-Amberを学ぶ
+資料
 -----------
+
 * [Amberコア](implementation/amber-core.html)
 * [Amberの実装](implementation/)
 * [リファレンス](reference/)

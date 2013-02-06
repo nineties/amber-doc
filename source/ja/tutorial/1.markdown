@@ -1,0 +1,105 @@
+---
+layout: page
+title: "チュートリアル1: Amberの起動・終了、スクリプトの実行"
+date: 2013-02-06 22:36:03 .
+comments: true
+sharing: true
+footer: true
+lang: ja
+---
+
+### Hello World
+
+    $ amber
+
+とタイプして下さい。正しくインストールされていればシェルが起動し、
+
+    amber:1>
+
+というプロンプトが表示されます。
+ここでAmberの式や文を入力すれば、それが評価されその結果が表示されます。
+例えば`puts("Hello World!")`と入力してみましょう。
+
+    amber:1> puts("Hello World!")
+    Hello World!
+    => nil
+
+Hello World!という文字列が表示され、この文の実行結果が`nil`であるという事が判ります。
+`nil`というのは、この実行結果には特に意味が無いという事を表しているのだと思って下さい。詳しくは後の回で説明します。
+
+別の例として`1 + 2 * 3`と入力してみましょう。
+
+    amber:2> 1 + 2 * 3
+    => 7
+
+この場合は実行結果が`7`であるという事が判ります。
+
+シェルを終了するには`exit`という文を実行します。
+
+    amber:3> exit
+
+
+### ファイルに書いたスクリプトを実行する
+
+以下のような内容のファイルを用意して下さい。ファイル名は`hello.ab`として下さい。
+
+    puts("Hello World!")
+
+`.ab`という拡張子はそれがAmberのスクリプトである事を表します。
+これを実行するにはコマンドプロンプトで
+
+    $ amber hello.ab
+
+とタイプして下さい。Amberは**スクリプト言語**なのでコンパイルは不要です。
+実際に実行してみると
+
+    $ amber hello.ab
+    Hello World!
+    $
+
+となります。
+
+またシェルスクリプトなどと同様に**シェバング行**を用いる事が出来ます。つまり、
+以下の様にスクリプトの冒頭に`#!`から始まる行を記述し
+
+    #!/usr/bin/amber
+
+    puts("Hello World!")
+
+実行可能属性を付与すれば直に実行する事が出来ます。
+
+    $ chmod +x hello.ab
+    $ ./hello.ab
+    Hello World!
+
+### loadとimport
+
+Amberのシェルから関数`load`によってスクリプトを呼び出す事が出来ます。
+
+    amber:1> load("hello.ab")
+    Hello World!
+    => nil
+
+また、関数`import`も使用可能です。
+
+    amber:1> import("hello")
+    Hello World!
+    => true
+    amber:2> import("hello")
+    => false
+
+`import`は`load`と
+
+* 同一のファイルは1度しか実行しない。
+* 拡張子の".ab"を省略出来る
+
+などの点で異なっていて、ライブラリの読み込みに利用します。
+ライブラリの読み込みは頻繁に使用しますので以下のような専用の文法が用意されています。
+
+    amber:1> import hello
+
+や
+
+    amber:2> import foo.bar.baz
+
+などです。後者は`import("foo/bar/baz")`と同じ挙動をします。
