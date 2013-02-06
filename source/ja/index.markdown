@@ -1,7 +1,7 @@
 ---
 layout: page
 title: プログラミング言語Amber
-date: 2012-06-12 04:33
+date: 2013-02-06 16:37:39 .
 comments: true
 sharing: true
 footer: true
@@ -45,8 +45,6 @@ Amberは開発の途中にあり，現在リリース版のVirtual Machine，コ
 
 現行のAmberはリリース版開発に必要な機能しか備えておらず以下のような機能を利用する事ができません．
 
-* 多倍長整数演算
-* 浮動小数点数演算
 * 多バイト文字
 * C言語などで書かれた外部関数の呼び出し
 

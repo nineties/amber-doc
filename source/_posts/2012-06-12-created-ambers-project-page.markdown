@@ -4,6 +4,7 @@ title: "Created Amber's Project Page"
 date: 2012-06-12 02:37
 comments: true
 categories: 
+lang: ja
 ---
 
 I have created this project page for my programming language "Amber".

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Programming Language Amber
-date: 2012-06-12 11:09
+date: 2013-02-06 16:37:06 .
 comments: true
 sharing: true
 footer: true
@@ -10,7 +10,7 @@ lang: en
 
 What is Amber?
 --------------
-Amber is a open source scripting language, which is being developed for easy realization of **High-Level Programming with Self-Extension**.
+Amber is an open source scripting language, which is being developed for easy realization of **High-Level Programming with Self-Extension**.
 The term "self-extension" means a way to extend languages' syntaxes or semantics using capabilities of themselves, and it includes following techniques:
 
 * Macros
@@ -44,7 +44,5 @@ The release version of Amber is currently under development.
 It will be a self-hosting compiler completely from the layer of assembers.
 Current Amber only has capabilities for developing the release version, and it does not support following things:
 
-* multi-precision integer arithmetic
-* floating-point arithmetic
 * multi-byte characters
 * foreign function support

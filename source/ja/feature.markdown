@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Amberの特徴
-date: 2012-06-13 22:15
+date: 2013-02-06 16:37:48 .
 comments: true
 sharing: true
 footer: true
