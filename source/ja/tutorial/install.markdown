@@ -1,7 +1,7 @@
 ---
 layout: page
 title: インストール方法
-date: 2013-02-06 20:55:41 .
+date: 2013-02-07 22:10:17 .
 comments: true
 sharing: true
 footer: true
@@ -9,7 +9,7 @@ lang: ja
 ---
 
 ### 環境
-**現行のAmberはLinux x86_64環境でのみ動作します。**
+**現状のAmberはLinux x86_64環境でのみ動作します。**
 開発は
 
 * Linux 3.2.0-4-amd64

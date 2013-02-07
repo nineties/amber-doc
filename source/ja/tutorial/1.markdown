@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "チュートリアル1: Amberの起動・終了、スクリプトの実行"
-date: 2013-02-06 22:36:03 .
+title: "チュートリアル1: 起動・終了、スクリプトの実行"
+date: 2013-02-07 19:40:31 .
 comments: true
 sharing: true
 footer: true
