@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wide
 title: インストール方法
 date: 2013-02-07 22:10:17 .
 comments: true

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: wide
 title: Features
-date: 2013-02-06 16:37:21 .
+date: 2013-02-08 10:05:57 .
 comments: true
 sharing: true
 footer: true

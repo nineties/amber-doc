@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wide
 title: デモ
 date: 2012-06-12 04:30
 comments: true

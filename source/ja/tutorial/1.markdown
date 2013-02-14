@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: wide
 title: "チュートリアル1: 起動・終了、スクリプトの実行"
-date: 2013-02-07 19:40:31 .
+date: 2013-02-14 10:57:06 .
 comments: true
 sharing: true
 footer: true
 lang: ja
+
+index: index
+next: 2
 ---
 
 ### Hello World
@@ -94,7 +97,7 @@ Amberのシェルから関数`load`によってスクリプトを呼び出す事
 * 拡張子の".ab"を省略出来る
 
 などの点で異なっていて、ライブラリの読み込みに利用します。
-ライブラリの読み込みは頻繁に使用しますので以下のような専用の文法が用意されています。
+ライブラリの読み込みは頻繁に使用しますので以下のような専用の構文が用意されています。
 
     amber:1> import hello
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wide
 title: "標準ライブラリ: 整数"
 date: 2013-02-07 23:56:50 .
 comments: true
