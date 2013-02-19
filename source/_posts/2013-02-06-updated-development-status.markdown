@@ -3,7 +3,7 @@ layout: post
 title: "Updated Development Status"
 date: 2013-02-06 16:10
 comments: true
-categories: 
+categories: Update-Notification Document
 ---
 Updated [Development Status](/index.html).
 Amber now supports **multi-precision integer arithmetic** and **floating-point arithmetic**

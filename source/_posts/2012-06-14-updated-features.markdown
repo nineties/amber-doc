@@ -3,7 +3,7 @@ layout: post
 title: "Updated features"
 date: 2012-06-14 00:48
 comments: true
-categories: 
+categories: Update-Notification Document
 lang: ja
 ---
 
