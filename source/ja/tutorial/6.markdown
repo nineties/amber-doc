@@ -1,13 +1,14 @@
 ---
 layout: wide
 title: "チュートリアル6: パターンマッチング・部分関数の融合"
-date: 2013-02-19 12:14:49 .
+date: 2013-02-19 21:49:49 .
 comments: true
 sharing: true
 footer: true
 lang: ja
 
 prev: 5
+next: 7
 index: index
 ---
 
@@ -116,15 +117,15 @@ Amberでは関数の仮引数の代わりに**パターン**を記述する事�
     amber:2> f(\Foo{0, 1, 2, 3, 4, 5})
     => [0, 1, [2, 3, 4, 5]]
 
-この記法を利用した例として、リストの先頭を取り出す`front`、先頭以外を取り出す`tail`は以下の様に定義する事ができます。
+この記法を利用した例として、リストの先頭を取り出す`car`、先頭以外を取り出す`cdr`は以下の様に定義する事ができます。
 
-    amber:1> front([a, ...]): a
+    amber:1> car([a, ...]): a
     => <#Function:0xf6487d1c>
-    amber:2> tail([_, as...]): as
+    amber:2> cdr([_, as...]): as
     => <#Function:0xf6496c40>
-    amber:3> front([1,2,3,4,5])
+    amber:3> car([1,2,3,4,5])
     => 1
-    amber:4> tail([1,2,3,4,5])
+    amber:4> cdr([1,2,3,4,5])
     => [2, 3, 4, 5]
 
 最後に
