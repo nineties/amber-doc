@@ -1,7 +1,7 @@
 ---
 layout: wide
 title: チュートリアル
-date: 2013-02-19 22:02:13 .
+date: 2013-03-08 23:51:05 .
 comments: true
 sharing: true
 footer: true
@@ -24,6 +24,6 @@ lang: ja
 5. [関数・クロージャ](/ja/tutorial/5.html)
 6. [パターンマッチング・部分関数の融合](/ja/tutorial/6.html)
 7. [制御構造](/ja/tutorial/7.html)
-8. モジュール
+8. [モジュール](/ja/tutorial/8.html)
 9. 文法の拡張
 10. マクロ

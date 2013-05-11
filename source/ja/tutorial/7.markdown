@@ -1,13 +1,14 @@
 ---
 layout: wide
-title: "チュートリアル6: 制御構造"
-date: 2013-02-19 23:06:45 .
+title: "チュートリアル7: 制御構造"
+date: 2013-03-08 21:20:09 .
 comments: true
 sharing: true
 footer: true
 lang: ja
 
 prev: 6
+next: 8
 index: index
 ---
 
@@ -16,6 +17,7 @@ Amberの基本的な制御構造には以下の物があります。
 * [ブロック](#block)
 * [シーケンス](#sequence)
 * [if文](#if)
+* [case文](#case)
 * [while文](#while)
 * [for文](#for)
 * [例外機構](#exception)
@@ -198,7 +200,7 @@ if-else文を書く場合には以下のように書きます。
 
 while文、for文のいずれにおいても**break文**によってループを中断する事が出来ます。
 
-    amber:1> for (v in [1,2,3,4,5]) {
+    amber:1> for (v in 1..5) {
     amber:1~        if (v == 3) break
     amber:1~        puts(v)
     amber:1~ }
@@ -208,7 +210,7 @@ while文、for文のいずれにおいても**break文**によってループを
 
 また**continue文**を用いるとイテレーションを中断し、次のイテレーションにスキップする事が出来ます。
 
-    amber:1> for (v in [1,2,3,4,5]) {
+    amber:1> for (v in 1..5) {
     amber:1~        if (v == 3) continue
     amber:1~        puts(v)
     amber:1~ }
