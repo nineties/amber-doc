@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Programming Language Amber
-date: 2013-02-06 16:37:06 .
+date: 2015-06-06 22:44:57 .
 comments: true
 sharing: true
 footer: true
@@ -10,6 +10,9 @@ lang: en
 
 What is Amber?
 --------------
+** Caution: This documents don't follow the latest laguage specification **
+
+
 Amber is an open source scripting language, which is being developed for easy realization of **High-Level Programming with Self-Extension**.
 The term "self-extension" means a way to extend languages' syntaxes or semantics using capabilities of themselves, and it includes following techniques:
 
